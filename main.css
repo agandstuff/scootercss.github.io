@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #FAEBD7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #FAEBD7;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header a:active {
+    color: #DEB887;
+}
+
+h2 a {
+    color: black;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+    color: #6495ED;
+}
+
+h2 a:active {
+    color: #DEB887;
+}
+
+p a {
+    color: #6495ED;
+}
+
+p a:active {
+    color: #DEB887;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #6495ED;
+    padding: 2em;
+    text-align: right;
+    margin: 0;
+}
+
+hr {
+    color: #FAEBD7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lora;
+}
+
+main {
+    background-color: #FAEBD7;
+}
+
+article {
+    background-color: white;
+    width: 70%;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.post-content {
+    text-align: left;
+}
+
+.post-content figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 200px;
+}
+
+.post-date {
+    color: #777777;
+}
+
+@media (min-width: 700px) {
+    body {
+        display: flex;
+    }
+
+    header {
+        position: fixed;
+        float: left;
+        width: 200px;
+        min-height: 100vh;
+        margin-top: 0;
+    }
+
+    main {
+        position: relative;
+        margin-left: 275px;
+    }
+}
