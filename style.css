@@ -1,0 +1,22 @@
+/* 1. This selector, as opposed to using "fieldset:nth-of-type(2) > p + p" wworks as a better selector in the case that an additonal fieldset needs to be added or this fieldset needs to be moved. The title can be changed easily or kept the same and the selector would stay the same, but if another fieldset was added with the above selector, you would have to change the selector as well.*/
+
+fieldset[title=fieldset2] > p + p {
+    color: teal;
+  }
+  
+  /*2. Adding a space between the span and the class "help" does not associate the class with the appropriate selector. When a space is added, no changes take place. */
+  span.help {
+    color: purple;
+  }
+  
+  /*3.Just to show that this worked, I changed one of the classes to an uppercase H for help so that it would show that one of the spans, which does not equal ".help" would fall under the below selector.*/ 
+  
+  span:not(.help){
+    color: green;
+  }
+  
+  /*4. The below code makes sure that this field set will only show the first two paragraphs.*/
+  
+  fieldset > p:nth-child(3) ~ p {
+    display: none;
+  }
