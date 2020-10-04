@@ -1,0 +1,124 @@
+//colors
+$body-color: #FAEBD7;
+$active-link: #DEB887;
+$header-color: #6495ED;
+
+//set breakpoints
+$break-medium: 700px;
+
+@mixin breakpoint($break) {
+@if $break == medium {
+@media (max-width: $break-medium) { @content; }
+} @else {
+@media ($break) { @content; }
+}
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: $body-color;
+    @include breakpoint(medium) {display: flex;}
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lora;
+}
+
+main {
+    background-color: $body-color;
+    @include breakpoint(medium) {
+        position: relative;
+        margin-left: 275px;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: $body-color;
+    :active {
+        color: $active-link;
+    }
+    :hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+h2 a {
+    color: black;
+    :active {
+        color: $active-link;
+    }
+    :hover {
+        text-decoration: underline;
+        color: $header-color;
+    }
+}
+
+p a {
+    color: $header-color;
+    :active {
+        color: $active-link;
+    }
+    :hover {
+        text-decoration: underline;
+    }
+}
+
+header {
+    background-color: $header-color;
+    padding: 2em;
+    text-align: right;
+    margin: 0;
+    @include breakpoint(medium) {
+        position: fixed;
+        float: left;
+        width: 200px;
+        min-height: 100vh;
+        margin-top: 0;
+    }
+}
+
+hr {
+    color: $body-color;
+}
+
+article {
+    background-color: white;
+    width: 70%;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.post-content {
+    text-align: left;
+    figure {
+        margin: 0 auto;
+        max-width: 200px;
+        img {
+            max-width: 100%; 
+        }
+    }
+}
+
+.post-date {
+    color: #777777;
+}
