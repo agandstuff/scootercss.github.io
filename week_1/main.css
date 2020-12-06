@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Lora");
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: #FAEBD7;
+  background-color: #faebd7;
 }
+
 @media (max-width: 700px) {
   body {
     display: flex;
@@ -13,12 +15,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Lora;
+  font-family: Lora, sans-serif;
 }
 
 main {
-  background-color: #FAEBD7;
+  background-color: #faebd7;
 }
+
 @media (max-width: 700px) {
   main {
     position: relative;
@@ -39,11 +42,13 @@ a {
 }
 
 header a {
-  color: #FAEBD7;
+  color: #faebd7;
 }
+
 header a :active {
-  color: #DEB887;
+  color: #deb887;
 }
+
 header a :hover {
   color: white;
   text-decoration: underline;
@@ -52,30 +57,35 @@ header a :hover {
 h2 a {
   color: black;
 }
+
 h2 a :active {
-  color: #DEB887;
+  color: #deb887;
 }
+
 h2 a :hover {
   text-decoration: underline;
-  color: #6495ED;
+  color: #6495ed;
 }
 
 p a {
-  color: #6495ED;
+  color: #6495ed;
 }
+
 p a :active {
-  color: #DEB887;
+  color: #deb887;
 }
+
 p a :hover {
   text-decoration: underline;
 }
 
 header {
-  background-color: #6495ED;
+  background-color: #6495ed;
   padding: 2em;
   text-align: right;
   margin: 0;
 }
+
 @media (max-width: 700px) {
   header {
     position: fixed;
@@ -87,7 +97,7 @@ header {
 }
 
 hr {
-  color: #FAEBD7;
+  color: #faebd7;
 }
 
 article {
@@ -101,16 +111,18 @@ article {
 .post-content {
   text-align: left;
 }
+
 .post-content figure {
   margin: 0 auto;
   max-width: 200px;
 }
+
 .post-content figure img {
   max-width: 100%;
 }
 
 .post-date {
-  color: #777777;
+  color: #777;
 }
 
 /*# sourceMappingURL=main.css.map */

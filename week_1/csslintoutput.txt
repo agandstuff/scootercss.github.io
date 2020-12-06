@@ -1,0 +1,32 @@
+
+main.css
+   2:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+   7:21  ✖  Expected "#FAEBD7" to be "#faebd7"    color-hex-case                               
+   9:1   ✖  Expected empty line before at-rule    at-rule-empty-line-before                    
+  15:3   ✖  Expected newline after ","            selector-list-comma-newline-after            
+  15:7   ✖  Expected newline after ","            selector-list-comma-newline-after            
+  15:11  ✖  Expected newline after ","            selector-list-comma-newline-after            
+  15:15  ✖  Expected newline after ","            selector-list-comma-newline-after            
+  15:19  ✖  Expected newline after ","            selector-list-comma-newline-after            
+  16:16  ✖  Unexpected missing generic font       font-family-no-missing-generic-family-keyword
+            family                                                                             
+  20:21  ✖  Expected "#FAEBD7" to be "#faebd7"    color-hex-case                               
+  22:1   ✖  Expected empty line before at-rule    at-rule-empty-line-before                    
+  42:10  ✖  Expected "#FAEBD7" to be "#faebd7"    color-hex-case                               
+  44:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+  45:10  ✖  Expected "#DEB887" to be "#deb887"    color-hex-case                               
+  47:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+  55:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+  56:10  ✖  Expected "#DEB887" to be "#deb887"    color-hex-case                               
+  58:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+  60:10  ✖  Expected "#6495ED" to be "#6495ed"    color-hex-case                               
+  64:10  ✖  Expected "#6495ED" to be "#6495ed"    color-hex-case                               
+  66:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+  67:10  ✖  Expected "#DEB887" to be "#deb887"    color-hex-case                               
+  69:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+  74:21  ✖  Expected "#6495ED" to be "#6495ed"    color-hex-case                               
+  79:1   ✖  Expected empty line before at-rule    at-rule-empty-line-before                    
+  90:10  ✖  Expected "#FAEBD7" to be "#faebd7"    color-hex-case                               
+ 104:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+ 108:1   ✖  Expected empty line before rule       rule-empty-line-before                       
+ 113:10  ✖  Expected "#777777" to be "#777"	  color-hex-length
